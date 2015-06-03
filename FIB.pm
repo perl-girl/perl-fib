@@ -18,7 +18,7 @@
         $calced{$num} = fib($num - 2) + fib($num - 1)
             if not defined $calced{$num};
 
-        return $calced{$num}
+        return $calced{$num};
     }
 }
 
